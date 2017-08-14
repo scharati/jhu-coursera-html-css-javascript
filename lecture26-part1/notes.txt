@@ -1,0 +1,18 @@
+Bootstrap grid systems
+
+-12 grid system
+requires following structure:
+<div class="container">
+	<div class="row">
+	  <div class=col-SIZE-SPAN>
+	  </div>
+	</div>
+</div>
+
+col-SIZE-SPAN 
+col - col prefix
+SIZE - lg,md,sm and xs (indicate large,medium,small and xtermely small screen size configurations)
+SPAN - number of columns the element should span (if together more than 12 then moves to the next row) 
+
+except xs - every other confguration means it is horizontal within bounds and stack outside
+xs- horizontal always

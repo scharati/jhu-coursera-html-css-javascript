@@ -1,0 +1,14 @@
+There are some properties in CSS that are NOT inherited.
+Example : box-sizing.
+* selector is a way to apply such properties to elements.
+*{
+	box-sizing:border-box;
+}
+
+This selector will select all the elments in the HTML document and apply the properties 
+in the rule to each one of them. 
+
+
+Margin:
+Margins on the sides are cumulative
+Margins on the top and bottom collapse to the maximum value from the specified top/bottom margins

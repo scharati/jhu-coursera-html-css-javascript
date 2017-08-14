@@ -1,0 +1,5 @@
+CSS : cascading style sheets
+
+CSS is a technology to apply styles to the HTML structure and content.
+By applying the styles one can change the layout,look and feel of HTML content.
+This helps in better overall user experience.

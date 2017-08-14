@@ -1,0 +1,2 @@
+semantic => relating to meaning
+semantic tags attach some meaning to the tag so that one can draw inferences

@@ -1,0 +1,48 @@
+Selectors: construct to select and apply rules to content
+
+Element Selector: Applies the rule[s] to elements of the HTML document 
+Class selector : class is a construct to apply rules based on the attribute "class" of HTML elements
+id Selector: Applied based on the id attribute of HTML elements
+
+element selector:
+
+<elementName>{
+	<property>:<value>;
+}
+
+p{
+	color: blue;
+}
+
+class selector:
+
+rule:
+
+.<className>{
+	<property>:<value>;
+}
+
+.highlight{
+	background-color:green;
+	font-weight:bold;
+}
+
+html:
+
+<p class="highlight">
+paragraph content
+</p>
+
+id selector:
+
+#<idvalue>{
+	<property:<value>;
+}
+
+#myId{
+	color : red;
+}
+
+<p id="myId">
+	paragraph content
+</p>

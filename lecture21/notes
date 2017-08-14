@@ -1,0 +1,14 @@
+Floating elements: This means rendering HTML elements differently from the normal flow.
+In the normal flow:
+HTML elements are rendered sequentially.
+Floating will take the elements out of the normal flow and render.
+<selector>
+{
+	float:left|right|initial|inherit
+}
+
+"clear" is the property to be used to avoid elements being rendered around the floated element.
+By using "clear" the element will be rendered in the normal document flow.
+
+Vertical Margins for floated elements:
+Vertical margins are NOT collapsed for floated elements but they are preserved

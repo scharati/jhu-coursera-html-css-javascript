@@ -1,0 +1,6 @@
+When the size of the content "overflows " the given bounding box then
+the property "overflow:" can be used to bring in scroll bars.
+
+overflow:visible [default one] the extra content is shown outside the bounding box
+overflow:auto [means ONLY if the content overflow then show the scroll bar]
+overflow:scroll [always show the scroll bar]

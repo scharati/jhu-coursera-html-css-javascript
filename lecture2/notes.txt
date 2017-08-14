@@ -1,0 +1,5 @@
+Two organizations in charge of HTML5
+W3C-> in charge of the standard HTML5
+WHATWG - consortium of browser vendors -> 
+in charge of evolving HTML5
+

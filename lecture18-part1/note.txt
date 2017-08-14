@@ -1,0 +1,7 @@
+Relative sizing and absolute sizing.
+The size property values can be specified by units of relative sizing:
+%,em 
+and by units of absolute sizing :
+px
+
+The px i.e. pixel is the device pixel and can be used by printers to map it to multiple dots on the printer.

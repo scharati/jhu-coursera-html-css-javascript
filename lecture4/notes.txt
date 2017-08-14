@@ -1,0 +1,17 @@
+HTML5 document structure:
+
+version specification : <!doctype html> indicates that the document is a standard HTML5 document
+<!doctype --> one word
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+<body>
+</body>
+</html>
+
+meta tag is to communicate some meta information to the browser for rendering
+meta tag has no closing tag
+For instace from above it's telling the browser that all characters on the page are utf-8.
+
+Browsers process HTML in sequential mode. One tag processed and then the next one.

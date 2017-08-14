@@ -1,0 +1,25 @@
+Specificity :
+In css conflict resolution Specificity is a mechanism to find out the most specific rule for the element which has encountered conflicting rules.
+
+four components of specificity:
+1: style attribute in element 
+2: id attribute in css rule
+3. class,pseudo class, attribute in css rule
+4. number of elements in the rule
+
+Each of the above four components (except # of elements - it can have value == number of elements) have either "0" or "1" as permitted values
+
+Example:
+
+p.highlight{
+	color: green;
+}
+
+A.SPECIFICITY: 0-0-1-1
+p{
+	color:red;
+}
+
+B.SPECIFICITY: 0-0-0-1
+
+so A wins

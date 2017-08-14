@@ -1,0 +1,16 @@
+Pseudo class selectors:
+selectors based on "psuedo" classes i.e. some predefined "pseudo" classes.
+Pseudo classes are keywords which allow selections based on particular states of elements.
+
+[selector]:[pseudo-class[{
+	[property]:[value];
+}
+
+selector: existing selector.
+pseudo-class: predefined pseudo classes
+
+:link
+:visited
+:nth-child()
+:hover
+:active

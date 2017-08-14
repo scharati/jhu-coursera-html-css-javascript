@@ -1,0 +1,9 @@
+content models: are about hwo to render specific elements on the browser page
+
+Block -level elements : rendered on a separate line unless CSS does something contrary
+can contain : block-level and in-line elements
+in HTML5 called flow-content-model
+In-line elements : rendered on same line unless CSS does something contrary
+can contain : ONLY inline elements
+in HTML5 called : phrasing content model
+

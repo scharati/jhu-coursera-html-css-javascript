@@ -1,0 +1,26 @@
+Positioning : It is about locating elements on the page
+There are following positioning schemes available:
+{
+	position: static|relative|absolute
+	top : xx px => from top
+	left : xx px => from left
+	right:xx px => from right
+	bottom: xx px => from bottom
+}
+
+1.static: default for all except "html" element. It's just another name for
+normal document flow. Offsets are "ignored" in this positioning scheme
+
+2.relative: In this scheme offsets are applied relative to the "normal document flow" 
+position of the element.
+The element remains in the normal document flow position
+
+3. absolute: In this scheme offsets are applied relative to the position of the first ancestor
+with positioning - absolute or relative
+html default positioning scheme is relative
+Element is removed from normal document flow position in this scheme
+
+useful for laying out elements in a container and maintaining the relative poistions of 
+elements inside the container element
+
+

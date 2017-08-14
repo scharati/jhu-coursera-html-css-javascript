@@ -1,0 +1,9 @@
+HTML : HyperText Markup Language
+HyperText => Text that contains links to other documents. The web of documents/videos/music.
+Markup => Marking something => giving some special meaning for some one. Also called annotating
+In this case HTML marks the content to software so that appropriate actions can be taken (e.g rendering)
+Language => language with syntax
+
+HTML -> structure of the content
+CSS -> visual presentation, style
+Javascript -> behavior for the content -> brings dynamism to the content

@@ -1,0 +1,24 @@
+Anatomy of a CSS Rule:
+
+CSS is specified as Rules to be applied to content.
+Here's the structure of a Rule:
+<selector>{
+	<property>:<value>;
+}
+
+selector: specifies to which element[s] the rule is applicable
+
+property: specifies the property this particular rule modifies 
+[property is specified in the CSS specification]
+
+value: specifies the value to be applied for the particular property
+
+;: semicolon to terminate the property:value pair
+
+p{
+	color:blue;
+}
+
+p: selector: implies this rule is applicable to all "p" elements i.e. paragraphs
+color: the property which is the color of the content in "p" element in this case
+blue: the color to be applied to the content of paragraph

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise: pseudo class</title>
+	<style>
+a div:hover:nth-child(3) {  
+  font-size: 24px;
+}
+	</style>
+</head>
+<body>
+<a>
+  <div>Div 1</div>
+  <div>Div 2</div>
+  <div>Div 3</div>
+  <div>Div 4</div>
+  <div>Div 5</div>
+  <div>Div 6</div>
+</a>
+</body>
+</html>

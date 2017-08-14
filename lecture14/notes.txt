@@ -1,0 +1,55 @@
+element with class selector: Selects an element with the given class
+
+[element].[className]{
+	<property>:<value>;
+}
+
+p.gaudy{
+	color: yellow;
+}
+
+Applies to paragraphs with class "gaudy"
+
+<p class = "gaudy">
+	This is gaudy paragraph
+</p>
+
+Child selector:
+
+[selectorP] > [selectorC] {
+	<property>: <value>;
+}
+
+=> applicable to all elements which are selected by selectorC whose immediate parent is selectorP
+
+.parent > .directChild {
+	color : green;
+}
+
+<div class="parent">
+	<div class= "directChild">
+		<p class="directChild">
+		</p>
+	</div>
+</div>
+
+applies to div with class "directChild" and NOT to p with class "directChild"
+
+
+Descendant selector:
+
+[selectorA] [white_space] [selectorD] {
+	<property> : <value>;
+}
+
+=> Applicable to all matches for selectorD at any level under matches for selectorA
+
+<div class="selectorA">
+	<div class= "selectorD">
+		<p class="selectorD">
+		</p>
+	</div>
+</div>
+
+<div class= "selectorD">
+</div>

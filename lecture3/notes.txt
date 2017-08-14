@@ -1,0 +1,7 @@
+HTML element -> p,body,div
+HTML tag -> opening tags --- <p>,<div> closing tags --- </p>,</div>
+HTML attributes -> meta data about the tag e.g : id <p id= "xxxx">
+Rules -> <[no_space]p> --> <p> also <[no_space>]/p>
+		 white space everywhere else is ignored
+Empty tags -> <p/> illegal per HTML5 instead use <p> </p>
+

@@ -1,0 +1,7 @@
+Image :
+img tag is the means to display / embed images in the html document
+img-> the tag
+src-> the attribute to specify the location of the image resource
+alt -> text for screen readers
+width -> width of the rectangle for image display
+height -> height of the rectangle for image display

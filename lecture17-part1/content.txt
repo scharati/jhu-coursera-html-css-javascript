@@ -1,0 +1,2 @@
+Working of CSS and conflict resolution -part 1
+Concepts : Origin,Merge,Inheritance,Specificity

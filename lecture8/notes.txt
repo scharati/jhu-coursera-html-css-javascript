@@ -1,0 +1,11 @@
+HTML Entities:
+	A way of specifying tags so that special characters are rendered correctly.
+	In HTML < > and & have special meanings. < and > are used for opening and closing tags
+	If we want to literally render < then < cannot be used but &lt; should be used
+	similarly > = &gt;
+	& = &amp;
+
+&nbsp; = non breaking space = used to ensure a piece of text moves together
+Jammu and Kashmir - > if we want it to move together i.e never have Jammu or Kashmir on 
+separate lines = Jammu&nbsp;and&nbsp;Kashmir
+This will make "Jammu and Kashmir" move together

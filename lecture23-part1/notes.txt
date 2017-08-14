@@ -1,0 +1,27 @@
+Media queries : 
+A feature to show User Interface adjusted according to scree size.
+
+Syntax:
+
+@media (media_feature) {
+	style information goes here
+}
+
+
+commonly used media_features :
+min-width
+max-height
+orientation
+
+example:
+
+@media (max-width: 300px){
+	p{
+		background-color: green;
+	}
+}
+
+combining of media queries
+
+and - to combing two media queries
+, - interpreted as OR

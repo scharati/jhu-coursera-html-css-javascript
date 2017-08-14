@@ -1,0 +1,11 @@
+Each HTML element is considered as a BOX
+A Box following structure:
+ 
+
+    <--margin<-- border --<--padding -- content-- padding -->-- border-->--margin-->
+
+Element size does NOT include margins.
+
+when we specify width for an element it's always just the content unless
+we specify 
+box-sizing: border-box;   

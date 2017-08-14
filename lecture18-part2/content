@@ -1,0 +1,13 @@
+"em" in sizing: "em" is a unit of relative sizing.
+em => the size of the letter "m" in the particular font
+
+The effect of sizing is cumulative on the elements.
+body{
+	font-size: 120%
+}
+
+<div font-size: 2em>
+	<p> paragraph 1 </p>
+<div>
+
+the size of the text "paragraph" is (120%)*2em i.e. cumulative

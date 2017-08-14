@@ -1,0 +1,7 @@
+lists :
+
+unordered list : sequence of items where order of entries is NOT important
+elements: ul and li
+
+ordered list: swquence of items where order of entries is important
+elements: ol and li

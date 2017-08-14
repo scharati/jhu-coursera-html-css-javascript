@@ -1,0 +1,4 @@
+The style defintions can be placed at 
+	1. In-line in the element to which we want to apply the style to
+	2. "style" tag inside head tag of the document
+	3. In an external style sheet and include the same in the document

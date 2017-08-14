@@ -1,0 +1,19 @@
+Links:
+	Links are what make HTML documents Hyper.
+	There are following types of links
+		1. Internal Links , 1a, internal section links
+		2. External links
+
+Internal links as the name implies link documents hosted on the same domain
+Internal section links are links to the different sections in the same document
+External links link to the documents hosted on external domains
+
+Synatx
+
+<a> </a> -> anchor tag
+attributes:
+href = location of the document to link to 
+title = for screen readers
+target = behavior for the linked document : open in same window/ different window
+
+

@@ -1,0 +1,3 @@
+caniuse.com -> check the support of HTML and CSS features across browsers
+www.w3.org -> the host for standards
+https://validator.w3.org/ -> HTML validator service

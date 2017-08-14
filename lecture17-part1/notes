@@ -1,0 +1,48 @@
+Conflict resolution in css
+
+Origin: 
+The place of definition of css,when rules are sourced from multiple locations the last declaration wins.
+This is when the rule target the same element and the properties being targeted are same
+
+
+Merge:
+When multiple rules are targeting same element but the properties being targeted are different the rules 
+are merged
+
+Inheritance:
+HTML documents have tree structure with parent child relations. The rules which are specified for the parent
+are inherited by the children.
+
+Examples:
+
+Origin case :
+
+p{
+	color : green;
+}
+
+p{
+	color : red;
+}
+
+The second one wins.[based on origin of specification].
+
+Merge case:
+
+p{
+	color: green
+}
+
+p{
+	font-size: 130%
+}
+
+Both are merged since the target is same but properties are different.
+
+Inheritance case:
+
+body{
+	color : red;
+}
+
+All elements inside body inherit the color red
