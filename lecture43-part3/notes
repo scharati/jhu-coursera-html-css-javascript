@@ -1,0 +1,39 @@
+String concetanation:
+
+works with "+" operator 
+string = string + "string2"
+
+Type Coercion:
+
+Java script engine coerces the value to the appropriate data type. This happens with the "==" operator.
+If no coercing is desired then one has to use "===" operator
+
+
+False values :
+null
+""
+undefined
+0
+false
+
+True values:
+true,
+"hello"
+1
+-1
+
+Braces :
+Should always start on the same line 
+correct :
+if(){
+	
+}
+
+incorrect :
+if()
+{
+	
+}
+
+Elements of style:
+semicolon should be specified to terminate each statement;

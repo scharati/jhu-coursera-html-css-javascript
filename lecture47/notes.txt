@@ -1,0 +1,70 @@
+Variable passing: Describes the way variables are passed between functions.
+
+There are two ways in which this is done:
+1.Pass by value
+2.Pass by reference
+
+pass by value:
+
+consider variables a and b;
+now we do b = a;
+
+In pass by value after the assignment "a" and "b" remain isolated in the sense that
+if we change the value of "b" then the value stored in "a" is not affected.
+
+var a = 5;
+var b = a;
+
+a= 5 and b = 5;
+
+a= 6;
+
+now a = 6; and b = 5;
+
+internals:
+
+var a = 5; A memory location say "x001" is allocated for variable "a" and then then value "5" is stored inside it.
+var b = a; A new memory location say "x002" is allocated for variable "b" and the value inside "a" ie. "5" is copied
+in memory location "x002" i.e. b.
+
+now a =6 then "6" is stored in the memory location "x001"(of a)
+
+
+pass by reference:
+
+consider variables a and b
+now we again do b = a;
+
+In pass by reference after the assignment "a" and "b" are not isolated. Any change to
+a also affects b.
+
+Internals:
+
+In case of reference objects, say we have a reference object.The memory allocation model is different.
+ref_obj is allocated a memory which will act as the container. The container object now either stores
+values directly inside it or has values stored somewhere else and it has stored the memory locations where
+these values are stored inside it
+
+ref_obj = mem_location -> x001.
+reference to ref_obj
+
+var a = ref_obj = {x:5,y:"hi!"}
+var b;
+ _________			 __________     _____________
+|		  |			|		   |   |	 |	     |
+|__x003___| ref_obj |____x004__|   |__5__|_"hi!"_|
+ x001					x003        x004	x005
+
+b = a;
+ ______
+|	   |
+|_x003_|
+
+now both a and b are pointing to the same location.
+Any change to a would directly affect b.
+
+In Javascript "primitives" are passed by value and "objects" are passed by value.
+
+Internally everything is pass by value. In pass by value as explained above
+the value is copied and in pass by reference the memory location is copied.
+That's how we end up getting these behaviours

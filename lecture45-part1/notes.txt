@@ -1,0 +1,25 @@
+Object creation :
+
+Objects are created using the "new Object()" call.
+properties can be set on the object using the "dot notation".
+	var myObject = new Object();
+
+	myObject.myProp = "propVal";
+
+"myProp" is created if it does not exist already.
+
+Objects can also be assigned to properties.
+
+var mySubObject = new Object();
+myObject.mysubObject =  mySubObject;
+
+syntax:
+
+var <object_name> = new Object();
+<object_name>.<propName> = propVal;
+propVal can be boolean,string etc
+
+Another way of setting properties on the object :
+
+<object_name>[<"propName">] = propVal
+quotes are a must here.

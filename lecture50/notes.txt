@@ -1,0 +1,25 @@
+Arrays:
+
+Arrays are collection of types. In programming languages arrays are generally collection of same types.
+However in Javascript they are a collection of heterogenous types. 
+Values in Arrays are accessed by [] notation (assignment and access)
+
+var myCollection = new Array();
+
+myCollection[0] = "Bharath";
+myCollection[1] = {
+	name: "Karnataka",
+	capital: "Bengaluru"
+};
+myCollection[2] = function (){
+	console.log("Namaste !!!");
+};
+
+Array Literal notation:
+
+var literalArray = ["goa","karnataka",{name: "crime and punishment",author: "Dostevsky"}];
+
+
+
+
+

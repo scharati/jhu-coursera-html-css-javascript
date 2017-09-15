@@ -1,0 +1,14 @@
+Types are data structures used to store values in a language
+
+Primitive types are types that can have single values and are immutable
+Javascript has 7 types (6 primitive and one Object Type)
+
+Object Type is bunch of name value pairs. Values can be promitive values or object types
+
+Primitive Types are
+boolean : can have true or false
+undefined: implies a variable is defined but not had any value assigned
+null - implies a special value null
+number - represents 64 bit floating point (double precision): integers are a subset of this
+string - represents sequence of characters/letters
+

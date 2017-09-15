@@ -1,0 +1,19 @@
+Closures:
+
+Closures is a javascript language feature where an inner function has access to the outer lexical environment even when the outer lexical environment is not in execution.
+
+function makeMultiplier(multiplier){
+	
+	return (function(x){
+		 return x* multiplier;
+	});
+}
+
+
+var doubleAll = makeMultiplier(2); //function body with multiplier = 2 is returned
+console.log(doubleAll(10));// here makeMultiplier is out of execution but because of closures multiplier value i.e. 2 is still accessible
+
+
+
+
+

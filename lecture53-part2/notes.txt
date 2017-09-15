@@ -1,0 +1,10 @@
+DOM Manipulation:
+
+The "document" object on the "Window" object offers useful APIs to manipulate the DOM.
+some useful API\s:
+document.getElementById("id_attribute_value") : This looks up the document and returns element matching the given "id" value;
+document.querySelector("css_selector") : This looks up the document and returns the element based on the css selector match
+
+element.textContent = to set the text content for the element
+element.value = to get the text value from the element
+element.innerHTML = to set HTML element inside the element

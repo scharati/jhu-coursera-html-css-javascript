@@ -1,0 +1,12 @@
+Fake Namespaces:
+
+Namespaces is a concept/language feature which helps avoid clashes between programming variables. For instance we may have imported a library which has an exposed variable called "name". Then we import one  more library which again exposes the "name" variable. These are conflicting. Namespaces provide a way of uniquely identifying variables.
+
+Java script does not have the concept of namespaces but it can be emulated by other means.
+
+The way to do this is via objects.
+Expose functions on unique objectNames that way there would be no conflicts.
+
+
+
+

@@ -1,0 +1,2 @@
+maha.sayNamaste();
+karu.sayNamaskara();

@@ -1,0 +1,23 @@
+Event Handling:
+Javascript events are an indication of different states of the browser. Event handlers are mechanisms to handle the events.
+These are nothing but functions which are run on the occurrence of a particular event for which the subscription is there.
+
+Event subscription can be done in 
+1. HTML
+2. Javascript
+
+HTML:
+
+It can done by specifying the event and the handler/function in the element as attribute.
+
+<button onclick="buttonPressed();"> </button>
+
+=> on "click" event on the button the "buttonPressed" function should be called.
+
+The HTML way of subscribing to events is not recommended as HTML is for content and not for behaviour.
+
+Javascript:
+One can subscribe to specific events via javascript.
+<element_to_observe_event_on>.addEventListener(<event_to_observe>, event_handler);
+
+event: "DOMContentLoaded" indicates that the HTML document content is loaded but CSS and images are not yet loaded

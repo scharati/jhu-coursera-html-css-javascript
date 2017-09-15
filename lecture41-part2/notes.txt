@@ -1,0 +1,52 @@
+
+Variable:
+
+Variables are specified using the keyword -> "var"
+Variables do not have a type i.e. the type is determined dynamically
+Thus a variable can be int,string,boolean through it's lifetime
+Javascript is said to be dynamically typed for the above reasons
+
+Functions:
+Programming constructs generally entrusted with specific objective
+
+ways of defining functions:
+function <name> () {
+	
+}
+
+var <name> =  function () {
+	
+}
+
+functions can be assigned to variables.
+
+calling functions:
+
+a();
+
+Scope:
+
+Scope determines the life time of a variable
+Functions create new scope in javascript
+
+Resolution mechaninsm in javascript:
+
+var x = "namaste!!";
+
+function A()
+{
+	var x = 123;
+	B();
+}
+
+
+function B()
+{
+	console.log(x);
+}
+
+
+When B() is executed it first looks for "x" in it's scope i.e. B's scope. Since it is not there then it look's in global scope where it is found.
+
+The referenced variable is looked for in the current scope then the next higher scope so on till global. Scope is defined by where the function is defined NOT where called.
+

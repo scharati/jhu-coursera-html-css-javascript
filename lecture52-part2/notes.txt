@@ -1,0 +1,13 @@
+IIFE: Immediately Invoked Function Expressions
+
+As the name suggests this is a construct which is used to define functions and immediately execute. Something like use and throw.
+
+(function sayNamaste(){
+	var greeting = "namaste";
+	console.log("say " + greeting);	
+})();
+
+
+
+
+

@@ -1,0 +1,7 @@
+The java script can be specified using the script tag.
+The script tag can itself contain the javascript or can refer to some external javascript file
+script tag always requires an end tag even if empty
+javascript is executed sequentially
+javascript is single threaded
+script tag can be included in the body tag also i.e the javascript content or inclusion of an external javascript file
+

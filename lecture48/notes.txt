@@ -1,0 +1,16 @@
+this keyword:
+
+Whenever a function is executed an execution context is created and a special reference called "this" is created.
+
+Function constructor:
+
+Function constructors are normal functions but follow a particular naming format so that developers can identify them
+as constructors.
+
+Function constructors are to be invoked with keyword "new" for the function object to returned.
+
+function MyObject(){
+	
+}
+
+var myObj = new MyObject();

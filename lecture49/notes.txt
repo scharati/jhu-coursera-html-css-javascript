@@ -1,0 +1,14 @@
+var myCircle ={
+	name: "myCircle001",
+	radius: 10;
+	getArea: function(){
+		return Math.PI*Math.pow(this.radius,2);
+	}
+}
+
+object literals are equivalent to executing "new <object/function constructor>"
+=> "this" points to the object itself in object literals and not to the global window object
+
+
+inner functions do not get the outer "this" reference when created inside object literals.
+so the practice is to use self= this and hence forth use self.

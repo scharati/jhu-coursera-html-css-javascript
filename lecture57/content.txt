@@ -1,0 +1,8 @@
+AJAX:
+
+Asynchronouse Java script and XML : This is a technology to update parts of the HTML page in response to server response.
+Earlier i.e. before AJAX complete HTML pages were fetched from the server and shown in browser which was slow and also was not good UX.
+
+
+
+

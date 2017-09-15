@@ -1,0 +1,27 @@
+Objects: literal notation
+
+Literal notation is a quicker and more user friendly way of creating Objects.
+In this method one gets to specify the properties "literally" so to say!
+
+var myLiteralObject = {
+	myProperty:"myPropertyVal",
+	mySubObject:{
+		mySubObjProp1:"mySubObjPropVal1",
+		mySubObjProp2:"mySubObjPropVal2"
+	}
+}
+
+syntax:
+
+<object_name>={
+	<propName><:><propVal><,>
+}
+
+propVal can be boolean,string or number;
+propName can also be specified using quotes.
+
+<object_name>={
+	<"propName"><:><propVal><,>
+}
+
+
